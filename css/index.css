@@ -1,3 +1,49 @@
-.test {
+html,
+body {
   background-color: aliceblue;
+  margin: 0 20% 0 20%;
+}
+
+.headline-container {
+  font-family: "Inter", "sans_serif";
+  font-weight: 400;
+  font: size 40px;
+  ;
+  line-height: 130%;
+  text-align: center;
+  color: rgba(0, 3, 2, 0.977);
+}
+
+.headline-container-pos {
+  color: rgb(0, 143, 31);
+}
+
+.headline-container-para {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: rgb(7, 62, 245);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu {
+  width: 351px;
+  height: 181px;
+  border-radius: 8px;
+}
+
+.menu-list {
+  font-family: "Inter", "sans-serif";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 137%;
+  color: rgb(2, 2, 2);
+
 }
